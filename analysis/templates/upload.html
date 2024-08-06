@@ -1,0 +1,21 @@
+ <!-- templates/analysis/upload.html -->
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Upload CSV File</title>
+</head>
+<body>
+    <h1>Upload CSV File</h1>
+    {% if error %}
+        <div style="color: red;">
+            <strong>Error:</strong> {{ error }}
+        </div>
+    {% endif %}
+    <form method="post" enctype="multipart/form-data">
+        {% csrf_token %}
+        <input type="file" name="document">
+        <button type="submit">Upload</button>
+    </form>
+</body>
+</html> 
