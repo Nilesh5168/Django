@@ -8,7 +8,7 @@ Data Visualization: Generate histograms for numerical columns and display them o
 
 Installation:
 Clone the Repository
-git clone https://github.com/Nilesh5168/csv-analysis.git
+git clone https://github.com/Nilesh5168/Django
 cd csv-analysis
 Create a Virtual Environment:
 python -m venv venv
